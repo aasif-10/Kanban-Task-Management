@@ -8,11 +8,11 @@ A dynamic task management application built using **jQuery, AJAX, JSON, PHP, and
 
 ## 🚀 Key Features
 
-*   **User Sessions**: Simple login system (Name-based) to personalize the experience.
-*   **Drag & Drop Interface**: Move tasks between columns using jQuery UI Sortable.
-*   **Asynchronous CRUD**: Create, Read, Update, and Delete tasks without page reloads (AJAX).
-*   **Real-time Status Updates**: Task positions and statuses are saved instantly to the database.
-*   **Responsive Design**: Clean, grid-based layout that works on desktop and mobile.
+- **User Sessions**: Simple login system (Name-based) to personalize the experience.
+- **Drag & Drop Interface**: Move tasks between columns using jQuery UI Sortable.
+- **Asynchronous CRUD**: Create, Read, Update, and Delete tasks without page reloads (AJAX).
+- **Real-time Status Updates**: Task positions and statuses are saved instantly to the database.
+- **Responsive Design**: Clean, grid-based layout that works on desktop and mobile.
 
 ---
 
@@ -20,39 +20,41 @@ A dynamic task management application built using **jQuery, AJAX, JSON, PHP, and
 
 This project was built to demonstrate core Web Technology concepts:
 
-*   **Frontend**: HTML5, CSS3, jQuery, jQuery UI.
-*   **Backend**: PHP (7.4+).
-*   **Database**: MySQL (PDO connection for security).
-*   **Data Exchange**: JSON & AJAX.
+- **Frontend**: HTML5, CSS3, jQuery, jQuery UI.
+- **Backend**: PHP (7.4+).
+- **Database**: MySQL (PDO connection for security).
+- **Data Exchange**: JSON & AJAX.
 
 ---
 
 ## 🔧 Installation & Setup
 
 1.  **Clone the Repository**
+
     ```bash
     git clone https://github.com/aasif-10/Kanban-Task-Management.git
     ```
+
     Place the folder in your server's root directory (e.g., `htdocs` for XAMPP).
 
 2.  **Database Setup**
-    *   Open **phpMyAdmin** (usually `http://localhost/phpmyadmin`).
-    *   Create a new database named `kanban_board`.
-    *   Import the `database.sql` file located in the root folder of this project.
+    - Open **phpMyAdmin** (usually `http://localhost/phpmyadmin`).
+    - Create a new database named `kanban_board`.
+    - Import the `database.sql` file located in the root folder of this project.
 
 3.  **Configure Connection**
-    *   Open `config/database.php`.
-    *   Update the credentials if your local setup differs:
-        ```php
-        $host = '127.0.0.1';
-        $db_name = 'kanban_board';
-        $username = 'root'; 
-        $password = ''; 
-        ```
+    - Open `config/database.php`.
+    - Update the credentials if your local setup differs:
+      ```php
+      $host = '127.0.0.1';
+      $db_name = 'kanban_board';
+      $username = 'root';
+      $password = '';
+      ```
 
 4.  **Run the App**
-    *   Start **Apache** and **MySQL** in XAMPP.
-    *   Navigate to: `http://localhost/Kanban-Task-Management/` (or your specific folder name).
+    - Start **Apache** and **MySQL** in XAMPP.
+    - Navigate to: `http://localhost/Kanban-Task-Management/` (or your specific folder name).
 
 ---
 
@@ -83,25 +85,25 @@ This project was built to demonstrate core Web Technology concepts:
 
 This project strictly follows the University Web Technology syllabus:
 
-*   **Module 3 (Client-Side Scripting)**:
-    *   **Selectors & Events**: Used jQuery to handle click events and form submissions.
-    *   **DOM Manipulation**: Dynamically appending task cards to the UI.
-    *   **Special Effects**: Drag-and-drop functionality using **jQuery UI**.
-    *   **AJAX & JSON**: Sending asynchronous requests to PHP and parsing JSON responses.
+- **Module 3 (Client-Side Scripting)**:
+  - **Selectors & Events**: Used jQuery to handle click events and form submissions.
+  - **DOM Manipulation**: Dynamically appending task cards to the UI.
+  - **Special Effects**: Drag-and-drop functionality using **jQuery UI**.
+  - **AJAX & JSON**: Sending asynchronous requests to PHP and parsing JSON responses.
 
-*   **Module 4 (PHP Basics)**:
-    *   **Variables & Functions**: PHP logic to process inputs.
-    *   **Date & Time**: Formatting timestamps (e.g., "Oct 24, 2024").
-    *   **Including Files**: Modular code using `include_once`.
+- **Module 4 (PHP Basics)**:
+  - **Variables & Functions**: PHP logic to process inputs.
+  - **Date & Time**: Formatting timestamps (e.g., "Oct 24, 2024").
+  - **Including Files**: Modular code using `include_once`.
 
-*   **Module 5 (Advanced PHP)**:
-    *   **Sessions**: `session_start()` used to track the logged-in user.
-    *   **Authentication**: Simple login/logout flow using PHP sessions.
+- **Module 5 (Advanced PHP)**:
+  - **Sessions**: `session_start()` used to track the logged-in user.
+  - **Authentication**: Simple login/logout flow using PHP sessions.
 
-*   **Module 6 (MySQL Integration)**:
-    *   **Database Connectivity**: Using **PDO** for secure database access.
-    *   **Form Handling**: Processing user input safely before insertion.
-    *   **CRUD Operations**: Full Create, Read, Update, Delete functionality.
+- **Module 6 (MySQL Integration)**:
+  - **Database Connectivity**: Using **PDO** for secure database access.
+  - **Form Handling**: Processing user input safely before insertion.
+  - **CRUD Operations**: Full Create, Read, Update, Delete functionality.
 
 ---
 
